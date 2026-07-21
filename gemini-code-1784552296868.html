@@ -1,0 +1,88 @@
+<!-- ==========================================
+     ১. বেসিক মেটা ট্যাগ এবং এসইও (SEO)
+========================================== -->
+<meta charset="UTF-8">
+<!-- রেস্পন্সিভ এবং মোবাইল-ফার্স্ট ভিউপোর্ট -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+<title>আপনার ওয়েবসাইটের টাইটেল এখানে (৫০-৬০ ক্যারেক্টার)</title>
+<meta name="description" content="আপনার ওয়েবসাইটের আকর্ষণীয় ডেসক্রিপশন এখানে দিন (১৫০-১৬০ ক্যারেক্টার)।">
+<meta name="keywords" content="keyword1, keyword2, keyword3, bangla, website">
+<meta name="author" content="আপনার নাম বা কোম্পানির নাম">
+
+<!-- গুগল বটের জন্য এডভান্সড অপটিমাইজেশন (Google Discover এবং বড় স্নিপেটের জন্য) -->
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" href="https://yourwebsite.com/current-page-url">
+
+<!-- থিম কালার (ডার্ক এবং লাইট মোডের জন্য আলাদা কালার সাপোর্ট) -->
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">
+
+<!-- ==========================================
+     ২. ওপেন গ্রাফ (Open Graph - Facebook, LinkedIn, WhatsApp)
+========================================== -->
+<!-- আর্টিকেলের জন্য content="article" এবং হোমপেজের জন্য "website" ব্যবহার করবেন -->
+<meta property="og:type" content="website"> 
+<meta property="og:site_name" content="আপনার ওয়েবসাইটের নাম">
+<meta property="og:locale" content="bn_BD"> <!-- বাংলার জন্য bn_BD, ইংরেজির জন্য en_US -->
+<meta property="og:title" content="আপনার ওয়েবসাইটের টাইটেল এখানে">
+<meta property="og:description" content="আপনার ওয়েবসাইটের ডেসক্রিপশন এখানে দিন।">
+<meta property="og:url" content="https://yourwebsite.com/current-page-url">
+<!-- হাই রেজোলিউশন প্রিভিউ ব্যানার (১২০০x৬৩০ পিক্সেল) -->
+<meta property="og:image" content="https://yourwebsite.com/images/og-banner.jpg">
+<meta property="og:image:secure_url" content="https://yourwebsite.com/images/og-banner.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ব্যানারের অল্টারনেটিভ টেক্সট">
+
+<!-- ==========================================
+     ৩. টুইটার কার্ড (Twitter / X Card)
+========================================== -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@yourtwitterhandle">
+<meta name="twitter:creator" content="@yourtwitterhandle">
+<meta name="twitter:title" content="আপনার ওয়েবসাইটের টাইটেল এখানে">
+<meta name="twitter:description" content="আপনার ওয়েবসাইটের ডেসক্রিপশন এখানে দিন।">
+<meta name="twitter:image" content="https://yourwebsite.com/images/twitter-banner.jpg">
+<meta name="twitter:domain" content="yourwebsite.com">
+
+<!-- ==========================================
+     ৪. PWA (Progressive Web App) Manifest
+========================================== -->
+<!-- crossorigin="use-credentials" দিতে পারেন যদি কুকি/অথেন্টিকেশন থাকে -->
+<link rel="manifest" href="/manifest.json">
+
+<!-- ==========================================
+     ৫. অ্যাপ আইকন এবং ফ্যাভিকন (App Icons & Favicon)
+========================================== -->
+<!-- সাধারণ ব্রাউজার ফ্যাভিকন -->
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<!-- অ্যাপল ডিভাইসের জন্য (Apple Touch Icons) -->
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes"> <!-- iOS এ ফুলস্ক্রিন অ্যাপ মোড -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="আপনার অ্যাপের নাম">
+
+<!-- সাফারি পিনড ট্যাব (Safari Pinned Tab - ম্যাকবুকের জন্য) -->
+<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#008080">
+
+<!-- উইন্ডোজ মেট্রো টাইল (Windows Start Menu Tile) -->
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/icons/mstile-144x144.png">
+<!-- <meta name="msapplication-config" content="/browserconfig.xml"> --> <!-- (ঐচ্ছিক) -->
+
+<!-- ==========================================
+     ৬. সাইট ভেরিফিকেশন (Google, Bing, Yandex) (ঐচ্ছিক)
+========================================== -->
+<!-- <meta name="google-site-verification" content="your_google_verification_code"> -->
+<!-- <meta name="msvalidate.01" content="your_bing_verification_code"> -->
+
+<!-- ==========================================
+     ৭. পারফরম্যান্স অপটিমাইজেশন (Preconnect)
+========================================== -->
+<!-- বাইরের ফন্ট বা স্ক্রিপ্ট দ্রুত লোড করার জন্য -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
